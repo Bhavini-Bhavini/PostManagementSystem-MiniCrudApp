@@ -1,0 +1,150 @@
+body {
+    background: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    color: #2c2c2c;
+}
+
+.navbar {
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.15);
+}
+
+.display-3,
+.display-5 {
+    font-weight: 700;
+    color: #8b0000;
+    letter-spacing: -0.5px;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.post-card {
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #ffffff;
+}
+
+.post-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(139, 0, 0, 0.18) !important;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-body {
+    animation: fadeIn 0.4s ease;
+}
+
+.form-control,
+.form-select {
+    border-radius: 12px;
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #8b0000;
+    box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.15);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-danger {
+    background: #8b0000;
+    border-color: #8b0000;
+}
+
+.btn-danger:hover {
+    background: #6d0000;
+    border-color: #6d0000;
+}
+
+.btn-outline-danger:hover {
+    background: #8b0000;
+    color: #fff;
+}
+
+.btn-outline-dark:hover {
+    background: #212529;
+    color: #fff;
+}
+
+.btn-light:hover {
+    background: #ececec;
+}
+
+.badge {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 8px 14px;
+}
+
+.page-link {
+    border: none;
+    border-radius: 10px !important;
+    margin: 0 4px;
+    padding: 10px 16px;
+    color: #8b0000;
+    transition: all 0.3s ease;
+}
+
+.page-link:hover {
+    background: #8b0000;
+    color: #fff;
+}
+
+.page-item.active .page-link {
+    background: #8b0000;
+    color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #999;
+}
+
+.container {
+    animation: fadeIn 0.4s ease;
+}
+
+hr {
+    opacity: 0.15;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
