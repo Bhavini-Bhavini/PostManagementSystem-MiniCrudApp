@@ -68,50 +68,38 @@ src/
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### 🏠 Home Page
 
-> Add screenshot here
-
-```md
-![Home Page](screenshots/home.png)
-```
+![Home Page](Screenshots/home.png)
 
 ---
 
 ### ➕ Create Post
 
-```md
-![Create Post](screenshots/create-post.png)
-```
+![Create Post](Screenshots/create-post.png)
 
 ---
 
 ### 📄 View Post
 
-```md
-![View Post](screenshots/view-post.png)
-```
+![View Post](Screenshots/view-post.png)
 
 ---
 
 ### ✏️ Edit Post
 
-```md
-![Edit Post](screenshots/edit-post.png)
-```
+![Edit Post](Screenshots/edit-post.png)
 
 ---
 
 ### 🗑️ Delete Confirmation
 
-```md
-![Delete Post](screenshots/delete-post.png)
-```
-
----
-
+![Delete Post](Screenshots/Delete-Post.png)
 ## ⚙️ Installation
 
+ ---
 Clone the repository:
 
 ```bash
